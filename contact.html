@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Elixer Hair Salon">
+  <meta name="author" content="Amber Nicholas">
+
+  <title>Elixer Hair Studio</title>
+
+  <!--font awesome: add icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!--Favicon-->
+ <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+
+ 	<!--bootstrap-->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  	<!--jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--popper.js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<!--bootstrap.js-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!--font awesome-->
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<!--my style sheet-->
+	<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Navigation: md talks about screen size -->
+<nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+<div class="container-fluid"><!--takes up 100% of screen-->
+	<!--brand is for logo-->
+	<a class="navbar-brand" href="index.html"><img id="navLogo" src="logo-dark.jpg"></a>
+	<h2>Elixer Hair Studio</h2>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<!--ml-auto explands the nav on larger screens-->
+		<ul class="navbar-nav ml-auto">
+			<!--active class shows what page you are on-->
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Gallery</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Contact</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://www.facebook.com/elixir.hairstudio/" target="_blank"><i class="fab fa-facebook"></i></a>
+			</li>
+		</ul>
+	</div>
+
+</div>
+	
+</nav>
+
+<!--Spacer (so fixed nav is not on top of the slider)-->
+
+<div class="contact-spacer">
+    &nbsp;
+</div>
+
+<!--Map and hours-->
+
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-12 col-lg-6 text-center">
+	<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13093.484686765129!2d-85.2914456!3d34.8720247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ef395d4f98c177f!2sElixir%20Hair%20Studio!5e0!3m2!1sen!2sus!4v1589996665002!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+	<div class="col-lg-6 text-left">
+		
+		<h5>Our Hours</h5>
+		<hr class="light-100">
+		<p>Monday: 10AM-6PM</p>
+		<p>Tuesday-Wednesday: 10AM-7PM</p>
+		<p>Thursday-Friday: 10AM-5PM</p>
+		
+		<h5>Phone</h5>
+		<hr class="light-100">
+		<a href="tel:706-375-1110">706-375-1110</a>
+		<div class="col-12">
+			<button id="directions" class="btn btn-primary btn-lg"><a target="_blank" href="https://wego.here.com/directions/mix//Elixir-Hair-Studio,-126-Gordon-St,-Chickamauga,-GA-30707,-USA:e-eyJuYW1lIjoiRWxpeGlyIEhhaXIgU3R1ZGlvIiwiYWRkcmVzcyI6IjEyNiBHb3Jkb24gU3RyZWV0LCBDaGlja2FtYXVnYSwgR2VvcmdpYSIsImxhdGl0dWRlIjozNC44NzIwNTk3Mzc3NDksImxvbmdpdHVkZSI6LTg1LjI5MTM0OTg4Nzg0OCwicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjoxMDAwMDUwMzUwMDI1NjU5fQ==?map=34.87185,-85.29098,15,normal&fb_locale=en_US">Get Directions</a></button>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-md-4">
+		<img id="footLogo" src="logo.jpg">
+		<hr class="light">
+		<a href="tel:706-375-1110">706-375-1110</a>
+		<p >Message us on <a id="footFace" target="_blank" href="https://www.facebook.com/pg/elixir.hairstudio/about/?ref=page_internal">Facebook</a></p>
+		<p>126 Gordon Street</p>
+		<p>Chickamauga, GA 30707</p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>Our Hours</h5>
+		<hr class="light">
+		<p>Monday: 10AM-6PM</p>
+		<p>Tuesday-Wednesday: 10AM-7PM</p>
+		<p>Thursday-Friday: 10AM-5PM</p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>Services</h5>
+		<hr class="light">
+		<p>Men's and Women's Hair</p>
+		<p>Nails</p>
+		<p>Tanning</p>
+		<p>Waxing</p>
+		<p>Make-up</p>
+	</div>
+	<div class="col-12">
+		<hr class="light-100">
+		<h5>&copy;<a target="_blank" href="https://anicholas628.github.io/">Amber Nicholas</a></h5>
+	</div>
+</div>	
+</div>
+</footer>
