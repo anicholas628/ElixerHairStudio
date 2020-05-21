@@ -263,7 +263,9 @@ hr.light-50 {
   
 }
 @media (max-width: 576px) {
-
+.spacer {
+  height: 150px;
+}
 
 .carousel-caption {
   top: 40%;
